@@ -1,0 +1,40 @@
+.blockquote {
+  padding: 0.5em 10px;
+  margin: 1.5em 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  quotes: "\201C""\201D""\2018""\2019";
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+
+  &::before {
+    font-size: 4em;
+    color: #ccc;
+  }
+}
+
+@layer components {
+  .artistas {
+    @apply flex flex-row flex-wrap mt-4 text-center;
+
+    &_img {
+      @apply w-full p-1;
+    }
+
+    &_nombre {
+      @apply uppercase font-body sm:text-3xl text-primary;
+    }
+
+    &_posicion {
+      @apply text-black font-body p-5;
+    }
+
+    &_descripcion {
+      @apply text-primary font-body text-xs sm:text-base;
+    }
+  }
+
+  .list {
+    @apply flex items-center justify-between my-4 border-solid border-5 p-5 bg-white;
+  }
+}

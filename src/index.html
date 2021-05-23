@@ -1,24 +1,61 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="es">
   <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>JOVIAL BANACH</title>
   </head>
-  <body>
-    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl mt-3 border">
-        <div class="flex-shrink-0">
-            <img class="h-12 w-12"
-                src="https://images.vexels.com/media/users/3/139911/isolated/preview/1afb4038427b2bd8edd275940aea269d-icono-de-servicio-de-chat-by-vexels.png"
-                alt="ChitChat Logo">
-        </div>
-        <div class="ml-6 pt-1">
-            <h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
-            <p class="text-base text-gray-600 leading-normal">You have a new message!</p>
-        </div>
+  <body class="bg-fondo text-primary">
+    <nav class="flex justify-center font-bold border-solid border-b-5 border-black font-body sm:p-12">
+      <ul class="border-solid text-xl text-center">
+        <li class="sm:inline m-8 pt-3">
+          <a class="hover:text-hovertext" href="index.html"><i class="fas fa-home"></i></a>
+        </li>
+        <li class="sm:inline m-8 pt-6">
+          <a class="hover:text-hovertext" href="artistas.html">Miembros</a>
+        </li>
+        <li class="sm:inline m-8 pt-6">
+          <a class="hover:text-hovertext" href="festival.html">Festival</a>
+        </li>
+        <li class="sm:inline m-8 pt-6">
+          <a class="hover:text-hovertext" href="index.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <main class="box-border p-1">
+        <h1 class="pt-10 text-6xl font-header text-center m-3">JOVIAL BANACH</h1>
+        <p class="text-black text-base leading-5 pb-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ab suscipit
+            ullam. Quas quos sequi adipisci accusamus blanditiis quaerat quisquam ea! Expedita
+            nisi fuga sequi fugit unde eveniet laboriosam a? Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Dolores, eligendi laborum repellat laboriosam aperiam
+            sequi reprehenderit? Nisi blanditiis officia ipsam, modi porro aliquid obcaecati
+            sequi totam recusandae, nesciunt quae odit. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit.</p>
+        <img class="object-cover p-4" src="./assets/images/banda2.jpeg" alt="Tycho Live at Barcelona">
+        <div class="text-black bg-primary text-center font-bold leading-6 p-5 mb-5 font-body uppercase">
+          <p>10.2.2010 Barcelona<br>Palau Sant Jordi</p>
+        </div>                 
+      </main>
     </div>
+    <footer class="p-10 text-center items-center text-black border-solid border-t-5 border-black">  
+      <input action="#">
+          <h2 class="mb-5 sm:text-lg"><strong>Sign up for our newsletter</strong></h2>
+          <div class="outline-none mb-10">
+            <input class="px-2 py-2 mr-2 rounded-lg border-solid border-2 focus:outline-purple w-full mb-5 sm:w-2/4" type="email" placeholder="example@example.com"></input>
+            <button class="bg-primary text-black-200 px-5 py-2 rounded shadow hover:bg-hovertext">Subscribe</button>
+          </div>
+      </form>
+      <section class="p-10">
+        <a class="mx-3" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="mx-3" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="mx-3" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <a class="mx-3" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <a class="mx-3" href="#!" role="button"><i class="fab fa-linkedin"></i></a>
+      </section>
+    </footer>
     <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>
